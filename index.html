@@ -7,6 +7,14 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&appId=803512306375282&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container">
 			<header class="page-header">
 				<h1>臉書粉絲專頁瀏覽器</h1>
@@ -41,7 +49,9 @@
 			<footer class="text-center">
 				<p>資訊系統訓練班 246 期 Ajax & Facebook 練習作業</p>
 				<!-- insert your iframe -->
-				<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnansenwang.github.io%2Fhw4%2Findex.html&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=803512306375282" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
+<!-- 				<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnansenwang.github.io%2Fhw4%2Findex.html&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=803512306375282" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe> -->
+<div class="fb-like" data-href="http://nansenwang.github.io/hw4/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+				
 			</footer>
 		</div>
 		<script src="js/jquery.js"></script>
