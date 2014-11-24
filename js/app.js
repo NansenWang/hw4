@@ -34,7 +34,7 @@ window.fbAsyncInit = function() {
               // 讀取 like 的列表，並儲存到 likes, 以及下一組資料的連結到 next
 
               //把讀到的資料放進html
-              //loadPagesInfo(likes);
+              loadPagesInfo(likes);
               // save next request url to moreBtn and show it
             });
         }else{
@@ -76,5 +76,5 @@ window.fbAsyncInit = function() {
 //       });
 //     });
 //   });
-// };
+};
 
