@@ -38,6 +38,7 @@ window.fbAsyncInit = function() {
               loadPagesInfo(likes);
               // save next request url to moreBtn and show it
               $('#moreBtn').data('next',next);
+              $('#moreBtn').removeClass('hide');
             });
         }else{
             console.log('User cancelled login or did not fully authorize.');
