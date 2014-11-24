@@ -10,7 +10,7 @@ var $listRoot = $('.page-list');
 // 設定 Facebook AppID
 window.fbAsyncInit = function() {
     FB.init({
-        appId: '1500484696892805', // 若可以，請換成自己的 App ID !
+        appId: '803512306375282', // 若可以，請換成自己的 App ID !
         xfbml: true,
         version: 'v2.2'
     });
