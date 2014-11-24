@@ -58,8 +58,8 @@ window.fbAsyncInit = function() {
       $.getJSON( $(this).data('next'), function(response){
         //更新列表資料
         loadPagesInfo(response.data);
-        var next = response.likes.data.paging.next;
-        $('#moreBtn').data('next',next);        
+        //var next = response.likes.data.paging.next;
+        //$('#moreBtn').data('next',next);        
       })
       e.preventDefault();
     });
